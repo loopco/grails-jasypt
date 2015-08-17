@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.bloomhealthco.domain.JasyptDomainEncryptionTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.bloomhealthco.domain.JasyptDomainEncryptionTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.bloomhealthco.domain.html">com.bloomhealthco.domain</a> &gt; JasyptDomainEncryptionTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">11</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">3.137s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testBooleanStringEncryption</td>
+<td>0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testByteStringEncryption</td>
+<td>0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDateStringEncryption</td>
+<td>0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoubleStringEncryption</td>
+<td>0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEncryptionWithLongNamesFit</td>
+<td>3.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFloatStringEncryption</td>
+<td>0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIntegerStringEncryption</td>
+<td>0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLongStringEncryption</td>
+<td>0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSaltingEncryptsSameValueDifferentlyEachTime</td>
+<td>0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShortStringEncryption</td>
+<td>0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testStringStringEncryption</td>
+<td>0.011s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>INFO org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+INFO org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@17e700c9, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2c160683, org.springframework.test.context.support.DirtiesContextTestExecutionListener@29e8d26e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@70121185, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5fdca606]
+INFO com.bloomhealthco.domain.JasyptDomainEncryptionTests - Starting JasyptDomainEncryptionTests on Yuris-MacBook-Pro.local with PID 74261 (/Users/yuri/work3/grails-jasypt/test-jasypt/build/classes/integrationTest started by yuri in /Users/yuri/work3/grails-jasypt/test-jasypt)
+INFO org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3711e621: startup date [Mon Aug 17 13:42:12 PDT 2015]; root of context hierarchy
+INFO grails.plugins.DefaultGrailsPluginManager - Attempting to load [0] user defined plugins
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [eventBus] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [restResponder] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [core] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [jasyptEncryption] with version [1.3.1] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [geb] with version [1.0.0] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [fields] with version [2.0.3] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [i18n] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [dataBinding] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [urlMappings] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [codecs] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [assetPipeline] with version [3.0.5] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [dataSource] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [controllers] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [mimeTypes] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [domainClass] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [filters] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [interceptors] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [controllersAsync] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [converters] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [hibernate] with version [4.3.10.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [groovyPages] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [services] with version [3.0.4] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [scaffolding] with version [3.1.0] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [cache] with version [3.0.1] loaded successfully
+INFO org.grails.plugins.datasource.DataSourceGrailsPlugin - [RuntimeConfiguration] Configuring data source for environment: TEST
+INFO org.grails.spring.beans.factory.OptimizedAutowireCapableBeanFactory - Overriding bean definition for bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': replacing [Root bean: class [org.springframework.context.annotation.ConfigurationClassPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.context.annotation.ConfigurationClassPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+INFO org.grails.spring.beans.factory.OptimizedAutowireCapableBeanFactory - Overriding bean definition for bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': replacing [Root bean: class [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+INFO org.grails.spring.beans.factory.OptimizedAutowireCapableBeanFactory - Overriding bean definition for bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': replacing [Root bean: class [org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+INFO org.grails.spring.beans.factory.OptimizedAutowireCapableBeanFactory - Overriding bean definition for bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor': replacing [Root bean: class [org.springframework.context.annotation.CommonAnnotationBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.context.annotation.CommonAnnotationBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+INFO org.grails.spring.beans.factory.OptimizedAutowireCapableBeanFactory - Overriding bean definition for bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor': replacing [Root bean: class [org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+INFO org.grails.spring.beans.factory.OptimizedAutowireCapableBeanFactory - Overriding bean definition for bean 'org.springframework.aop.config.internalAutoProxyCreator': replacing [Root bean: class [org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+INFO org.grails.spring.beans.factory.OptimizedAutowireCapableBeanFactory - Overriding bean definition for bean 'org.springframework.transaction.config.internalTransactionAdvisor': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration; factoryMethodName=transactionAdvisor; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class]] with [Root bean: class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+INFO org.grails.spring.beans.factory.OptimizedAutowireCapableBeanFactory - Overriding bean definition for bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor': replacing [Root bean: class [org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+INFO org.grails.spring.beans.factory.OptimizedAutowireCapableBeanFactory - Overriding bean definition for bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor': replacing [Root bean: class [org.springframework.context.annotation.ConfigurationClassPostProcessor$EnhancedConfigurationBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.context.annotation.ConfigurationClassPostProcessor$EnhancedConfigurationBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+INFO grails.plugin.cache.CacheBeanPostProcessor - postProcessBeanDefinitionRegistry start
+INFO grails.plugin.cache.CacheBeanPostProcessor - postProcessBeanFactory
+INFO org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.3.Final
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'entityInterceptor' of type [class org.hibernate.EmptyInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'grailsConfigProperties' of type [class grails.config.ConfigProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorConfigurationReader' of type [class org.grails.events.reactor.GrailsReactorConfigurationReader] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorEnv' of type [class reactor.Environment] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'eventBus' of type [class org.springframework.beans.factory.config.MethodInvokingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'grails.plugin.cache.GrailsCacheAdminServiceServiceClass' of type [class org.springframework.beans.factory.config.MethodInvokingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'classLoader' of type [class org.springframework.beans.factory.config.MethodInvokingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'test.jasypt.domain.PatientDomainClass' of type [class org.springframework.beans.factory.config.MethodInvokingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'test.jasypt.domain.PatientDomainClass' of type [class org.grails.core.DefaultGrailsDomainClass] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'test.jasypt.domain.PatientPersistentClass' of type [class org.springframework.beans.factory.config.MethodInvokingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asset.pipeline.grails.AssetProcessorServiceServiceClass' of type [class org.springframework.beans.factory.config.MethodInvokingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'grails.plugin.formfields.FormFieldsTemplateServiceServiceClass' of type [class org.springframework.beans.factory.config.MethodInvokingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceUnproxied' of type [class org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceLazy' of type [class org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [class org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dialectDetector' of type [class org.grails.orm.hibernate.support.HibernateDialectDetectorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dialectDetector' of type [class java.lang.String] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'hibernateProperties' of type [class org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'hibernateProperties' of type [class java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'hibernateEventListeners' of type [class org.grails.orm.hibernate.HibernateEventListeners] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'eventTriggeringInterceptor' of type [class org.grails.orm.hibernate.support.ClosureEventTriggeringInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+INFO org.hibernate.Version - HHH000412: Hibernate Core {4.3.10.Final}
+INFO org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+INFO org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+INFO org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.grails.beans.ConstraintsEvaluator' of type [class org.grails.validation.ConstraintsEvaluatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.grails.beans.ConstraintsEvaluator' of type [class org.grails.validation.DefaultConstraintEvaluator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+WARN net.sf.ehcache.config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/yuri/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache-core/2.4.3/fd258ef6959f27fb678b04f90139ded4588e2d15/ehcache-core-2.4.3.jar!/ehcache-failsafe.xml
+INFO org.hibernate.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+INFO org.hibernate.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionFactory' of type [class org.grails.orm.hibernate.ConfigurableLocalSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionFactory' of type [class org.hibernate.internal.SessionFactoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'transactionManager' of type [class org.grails.orm.hibernate.GrailsHibernateTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cache.annotation.AnnotationCacheOperationSource#0' of type [class grails.plugin.cache.GrailsAnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+INFO org.apache.catalina.core.StandardService - Starting service Tomcat
+INFO org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.0.23
+INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+INFO org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4975 ms
+WARN org.springframework.beans.GenericTypeAwarePropertyDescriptor - Invalid JavaBean property 'dispatcherTypes' being accessed! Ambiguous write methods found next to actually used [public void org.springframework.boot.context.embedded.FilterRegistrationBean.setDispatcherTypes(java.util.EnumSet)]: [public void org.springframework.boot.context.embedded.FilterRegistrationBean.setDispatcherTypes(javax.servlet.DispatcherType,javax.servlet.DispatcherType[])]
+INFO org.springframework.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'metricFilter' to: [/*]
+INFO org.springframework.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to urls: [/*]
+INFO org.springframework.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to urls: [/*]
+INFO org.springframework.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'grailsWebRequestFilter' to urls: [/*]
+INFO org.springframework.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+INFO org.springframework.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'memoryPageFragmentCachingFilter' to urls: [*]
+INFO org.springframework.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'assetPipelineFilter' to urls: [/assets/*]
+INFO org.springframework.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+INFO org.springframework.boot.context.embedded.ServletRegistrationBean - Mapping servlet: 'groovyPagesServlet' to [*.gsp]
+INFO org.springframework.boot.context.embedded.ServletRegistrationBean - Mapping servlet: 'grailsDispatcherServlet' to [/]
+INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3711e621: startup date [Mon Aug 17 13:42:12 PDT 2015]; root of context hierarchy
+INFO net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+INFO org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping - Mapped &quot;{[/env/{name:.*}],methods=[GET]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+INFO org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping - Mapped &quot;{[/env],methods=[GET]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+INFO org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping - Mapped &quot;{[/info],methods=[GET]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+INFO org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping - Mapped &quot;{[/configprops],methods=[GET]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+INFO org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping - Mapped &quot;{[/dump],methods=[GET]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+INFO org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping - Mapped &quot;{[/autoconfig],methods=[GET]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+INFO org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping - Mapped &quot;{[/beans],methods=[GET]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+INFO org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping - Mapped &quot;{[/metrics/{name:.*}],methods=[GET]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+INFO org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping - Mapped &quot;{[/metrics],methods=[GET]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+INFO org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping - Mapped &quot;{[/mappings],methods=[GET]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+INFO org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping - Mapped &quot;{[/health]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+INFO org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping - Mapped &quot;{[/trace],methods=[GET]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3711e621: startup date [Mon Aug 17 13:42:12 PDT 2015]; root of context hierarchy
+INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+INFO org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+INFO org.grails.plugins.datasource.TomcatJDBCPoolMBeanExporter - Registering beans for JMX exposure on startup
+INFO org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase -2147483648
+INFO org.grails.plugins.web.filters.FiltersGrailsPlugin - reloadFilters
+Start
+INFO org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler [&quot;http-nio-8080&quot;]
+INFO org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [&quot;http-nio-8080&quot;]
+INFO org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'grailsDispatcherServlet'
+INFO org.grails.web.servlet.mvc.GrailsDispatcherServlet - FrameworkServlet 'grailsDispatcherServlet': initialization started
+INFO org.grails.web.servlet.mvc.GrailsDispatcherServlet - FrameworkServlet 'grailsDispatcherServlet': initialization completed in 10 ms
+INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+INFO com.bloomhealthco.domain.JasyptDomainEncryptionTests - Started JasyptDomainEncryptionTests in 8.062 seconds (JVM running for 9.553)
+Grails application running at http://localhost:8080 in environment: test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.3</a> at Aug 17, 2015 1:42:23 PM</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<plugin name='jasyptEncryption' version='2.0.0-SNAPSHOT' grailsVersion='2.4 &gt; *'>
+  <type>com.bloomhealthco.jasypt.JasyptEncryptionGrailsPlugin</type>
+  <grailsVersion>2.4 &gt; *</grailsVersion>
+  <license>APACHE</license>
+  <issueManagement system='GITHUB' url='https://github.com/dtanner/grails-jasypt/issues' />
+  <developers>[[name:Ted Naleid, email:contact@naleid.com], [name:Jon Palmer], [name:Dan Tanner, email:dan@dantanner.com]]</developers>
+  <documentation>http://grails.org/plugin/jasypt-encryption</documentation>
+  <name>jasypt-encryption</name>
+  <description>Integration with Jasypt, allows easy encryption of information including Hibernate/GORM integration</description>
+  <title>Jasypt Encryption</title>
+  <scm url='https://github.com/dtanner/grails-jasypt' />
+  <version />
+  <resources>
+    <resource>jasypt.encryption.Application</resource>
+  </resources>
+</plugin>
